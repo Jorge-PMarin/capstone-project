@@ -1,0 +1,88 @@
+@use '../globals/variables';
+
+.hero {
+  background-color: variables.$gray;
+  padding: 2rem 5%;
+  position: relative;
+
+  &__heading {
+    margin: 0;
+    color: variables.$yellow;
+    font-family: 'Markazi Text', serif;
+    font-size: 5.2rem;
+    font-weight: 300;
+  }
+
+  &__city {
+    color: variables.$light-gray;
+    font-size: 3.4rem;
+    font-family: 'Markazi Text', serif;
+    font-weight: 300;
+    margin-bottom: 2.5rem;
+  }
+
+  &__description {
+    color: variables.$light-gray;
+    max-width: 60%;
+    margin-bottom: 3rem;
+  }
+
+  &__reserve {
+    text-decoration: none;
+    color: inherit;
+    background-color: variables.$yellow;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    font-family: 'Markazi Text', serif;
+    font-weight: 300;
+    font-size: 2rem;
+  }
+
+  &__img {
+    display: none;
+  }
+}
+
+@media (min-width: 700px) {
+  .hero {
+    &__img {
+      display: block;
+      width: 38%;
+      height: 30rem;
+      object-fit: cover;
+      position: absolute;
+      right: 8%;
+      top: 4rem;
+      border-radius: 1.5rem;
+    }
+
+    &__description {
+      max-width: 40%;
+    }
+  }
+}
+
+@media (min-width: 1000px) {
+    .hero {
+        padding: 3.5rem 5%;
+        &__heading {
+            font-size: 7.2rem;
+        }
+
+        &__city {
+            font-size: 5.2rem;
+        }
+
+        &__description {
+            font-size: 2.3rem;
+        }
+
+        &__img {
+            height: 40rem;
+        }
+
+       
+    }
+
+
+}
