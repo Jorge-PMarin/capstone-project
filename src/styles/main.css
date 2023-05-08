@@ -506,4 +506,85 @@ img {
   .hero__img {
     height: 40rem;
   }
+}
+.homepage__cards {
+  padding: 0 1.4rem;
+}
+
+@media (min-width: 700px) {
+  .homepage__cards {
+    margin-top: 9rem;
+    display: flex;
+    gap: 2rem;
+  }
+}
+@media (min-width: 900px) {
+  .homepage__cards {
+    max-width: 120rem;
+    margin: 9rem auto;
+  }
+}
+.card {
+  border-top: 0.1rem solid #edefee;
+  padding: 1rem 0;
+}
+.card__heading {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+.card__img {
+  display: none;
+}
+.card__description {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+.card__price__top {
+  display: none;
+}
+.card__price__bottom, .card__description {
+  color: #495e57;
+}
+
+@media (min-width: 700px) {
+  .card {
+    border-radius: 1rem;
+    overflow: hidden;
+    background-color: #edefee;
+    padding: 0 0 1rem 0;
+  }
+  .card__img {
+    display: block;
+    height: 17rem;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    margin-bottom: 1rem;
+  }
+  .card__price__bottom {
+    display: none;
+  }
+  .card__heading__container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .card__price__top {
+    display: inline-block;
+    color: #ee9972;
+  }
+  .card__heading {
+    display: inline-block;
+    margin-bottom: 2rem;
+  }
+  .card__body {
+    padding: 1rem 1rem;
+  }
+  .card__description {
+    -webkit-line-clamp: 6;
+    margin-bottom: 1rem;
+  }
 }/*# sourceMappingURL=main.css.map */

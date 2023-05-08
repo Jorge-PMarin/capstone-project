@@ -1,0 +1,79 @@
+@use '../globals/variables';
+
+.card {
+  border-top: 0.1rem solid variables.$light-gray;
+  padding: 1rem 0;
+
+  &__heading {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+  }
+
+  &__img {
+    display: none;
+  }
+
+  &__description {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin-bottom: 1rem;
+  }
+
+  &__price__top {
+    display: none;
+  }
+
+  &__price__bottom,
+  &__description {
+    color: variables.$gray;
+  }
+}
+
+@media (min-width: 700px) {
+  .card {
+    border-radius: 1rem;
+    overflow: hidden;
+    background-color: variables.$light-gray;
+    padding: 0 0 1rem 0;
+
+    &__img {
+      display: block;
+      height: 17rem;
+      width: 100%;
+      object-fit: cover;
+      margin-bottom: 1rem;
+    }
+
+    &__price__bottom {
+      display: none;
+    }
+
+    &__heading__container {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &__price__top {
+      display: inline-block;
+      color: variables.$pink;
+    }
+
+    &__heading {
+      display: inline-block;
+      margin-bottom: 2rem;
+    }
+
+    &__body {
+        padding: 1rem 1rem;
+    }
+
+    &__description {
+      -webkit-line-clamp: 6;
+
+      margin-bottom: 1rem;
+    }
+  }
+}
