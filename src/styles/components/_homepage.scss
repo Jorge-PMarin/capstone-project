@@ -5,20 +5,20 @@
 }
 
 @media (min-width: 700px) {
-    .homepage {
-        &__cards {
-            margin-top: 9rem;
-            display: flex;
-            gap: 2rem;
-        }
+  .homepage {
+    &__cards {
+      margin-top: 9rem;
+      display: flex;
+      gap: 2rem;
     }
+  }
 }
 
 @media (min-width: 900px) {
-    .homepage {
-        &__cards {
-            max-width: 120rem;
-            margin: 9rem auto;
-        }
+  .homepage {
+    &__cards {
+      max-width: 120rem;
+      margin: 9rem auto 7rem auto;
     }
+  }
 }

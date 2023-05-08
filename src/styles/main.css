@@ -521,7 +521,7 @@ img {
 @media (min-width: 900px) {
   .homepage__cards {
     max-width: 120rem;
-    margin: 9rem auto;
+    margin: 9rem auto 7rem auto;
   }
 }
 .card {
@@ -587,4 +587,17 @@ img {
     -webkit-line-clamp: 6;
     margin-bottom: 1rem;
   }
+}
+.footer {
+  padding: 2rem 2rem 4rem 2rem;
+  font-size: 2rem;
+  border-top: 0.1rem solid gray;
+}
+
+.notFound {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 46rem;
+  font-size: 3rem;
 }/*# sourceMappingURL=main.css.map */

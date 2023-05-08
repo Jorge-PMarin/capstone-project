@@ -11,13 +11,15 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/about" element={<AboutPage />} />
+        <Route path="/about" element={<NotFoundPage />} />
         <Route path="/menu" element={<NotFoundPage />} />
         <Route path="/reservations" element={<NotFoundPage />} />
         <Route path="/order" element={<NotFoundPage />} />
         <Route path="/login" element={<NotFoundPage />} />
       </Routes>
+      <Footer />
     </Router>
+
   );
 }
 

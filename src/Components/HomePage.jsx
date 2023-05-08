@@ -9,7 +9,7 @@ const dishes = [
     description:
       'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, a facilis perferendis voluptatibus minus culpa quo minima quasi aspernatur deserunt incidunt deleniti, laudantium iusto dolor qui distinctio, perspiciatis quibusdam nobis.',
     price: '$12.99',
-    id: 1
+    id: 1,
   },
   {
     name: 'Bruchetta',
@@ -18,7 +18,7 @@ const dishes = [
     description:
       'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, a facilis perferendis voluptatibus minus culpa quo minima quasi aspernatur deserunt incidunt deleniti, laudantium iusto dolor qui distinctio, perspiciatis quibusdam nobis.',
     price: '$19.00',
-    id: 2
+    id: 2,
   },
   {
     name: 'Lemon Dessert',
@@ -27,7 +27,7 @@ const dishes = [
     description:
       'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, a facilis perferendis voluptatibus minus culpa quo minima quasi aspernatur deserunt incidunt deleniti, laudantium iusto dolor qui distinctio, perspiciatis quibusdam nobis.',
     price: '$10.99',
-    id: 3
+    id: 3,
   },
 ];
 

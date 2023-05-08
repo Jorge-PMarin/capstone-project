@@ -7,7 +7,6 @@ function Card({ name, imageUrl, description, price }) {
           <h2 className="card__heading">{name}</h2>
           <span className="card__price__top">{price}</span>
         </div>
-
         <p className="card__description">{description}</p>
         <span className="card__price__bottom">{price}</span>
       </div>
